@@ -36,18 +36,24 @@ sumDouble(2, 2) → 8
 
 --- x ---
 
-**Exercise4 - sumDouble**
+**Exercise4 - diff21**
 
-Esse exercício pede que você calcule a diferença absoluta entre um número inteiro n e 21. A diferença absoluta significa simplesmente o valor positivo da subtração entre dois números, independentemente da ordem.
+Given an int n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.
 
-Depois, há uma exceção:
+Examples
 
-Se n for maior que 21, o resultado final deve ser o dobro da diferença absoluta.
+diff21(19) → 2
+diff21(10) → 11
+diff21(21) → 0
 
-Passo a passo da lógica:
+--- x ---
 
-Calcule a diferença absoluta entre n e 21.
-Se n for maior que 21, retorne o dobro dessa diferença.
+**Exercise5 - parrotTrouble**
 
-Caso contrário, retorne apenas a diferença absoluta normal.
+We have a loud talking parrot. The "hour" parameter is the current hour time in the range 0..23. We are in trouble if the parrot is talking and the hour is before 7 or after 20. Return true if we are in trouble.
 
+Examples
+
+parrotTrouble(true, 6) → true
+parrotTrouble(true, 7) → false
+parrotTrouble(false, 6) → false
