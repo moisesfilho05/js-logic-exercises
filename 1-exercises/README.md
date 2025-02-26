@@ -57,3 +57,15 @@ Examples
 parrotTrouble(true, 6) → true
 parrotTrouble(true, 7) → false
 parrotTrouble(false, 6) → false
+
+--- x ---
+
+**Exercise6 - makes10**
+
+Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
+
+Examples
+
+makes10(9, 10) → true
+makes10(9, 9) → false
+makes10(1, 9) → true
